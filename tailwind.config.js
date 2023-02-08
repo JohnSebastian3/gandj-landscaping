@@ -5,11 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        moss: "#56612A",
+        moss: "#8d9b77",
         slate: "#e3e1df",
         wood : "#4A442D",
         sand: "#DCD6C8",
         green: "#688B58",
+        "light-gray": "#bdbcb1",
         "dark-green": "#25241a"
       },
       fontFamily: {
