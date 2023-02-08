@@ -569,21 +569,41 @@ video {
   top: 0px;
 }
 
+.right-0{
+  right: 0px;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
+.z-40{
+  z-index: 40;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.ml-\[33\%\]{
+  margin-left: 33%;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
 }
 
 .flex{
   display: flex;
 }
 
-.h-\[100vh\]{
-  height: 100vh;
+.h-full{
+  height: 100%;
 }
 
-.h-\[70px\]{
-  height: 70px;
+.h-\[100vh\]{
+  height: 100vh;
 }
 
 .w-5\/6{
@@ -592,6 +612,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[300px\]{
+  width: 300px;
 }
 
 .resize{
@@ -606,16 +630,40 @@ video {
   align-items: center;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .gap-4{
   gap: 1rem;
 }
 
-.gap-2{
-  gap: 0.5rem;
+.rounded-full{
+  border-radius: 9999px;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
 }
 
 .border-b{
@@ -631,6 +679,11 @@ video {
   --tw-border-opacity: 0.1;
 }
 
+.bg-light-gray{
+  --tw-bg-opacity: 1;
+  background-color: rgb(189 188 177 / var(--tw-bg-opacity));
+}
+
 .bg-wood{
   --tw-bg-opacity: 1;
   background-color: rgb(74 68 45 / var(--tw-bg-opacity));
@@ -639,6 +692,11 @@ video {
 .bg-sand{
   --tw-bg-opacity: 1;
   background-color: rgb(220 214 200 / var(--tw-bg-opacity));
+}
+
+.bg-slate{
+  --tw-bg-opacity: 1;
+  background-color: rgb(227 225 223 / var(--tw-bg-opacity));
 }
 
 .bg-green{
@@ -658,14 +716,37 @@ video {
   background-position: center;
 }
 
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.p-2{
+  padding: 0.5rem;
+}
+
+.p-12{
+  padding: 3rem;
 }
 
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-center{
@@ -674,6 +755,16 @@ video {
 
 .font-playfair{
   font-family: Playfair Display, serif;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-4xl{
@@ -690,9 +781,8 @@ video {
   font-weight: 700;
 }
 
-.text-slate{
-  --tw-text-opacity: 1;
-  color: rgb(227 225 223 / var(--tw-text-opacity));
+.font-semibold{
+  font-weight: 600;
 }
 
 .text-dark-green{
@@ -700,10 +790,27 @@ video {
   color: rgb(37 36 26 / var(--tw-text-opacity));
 }
 
-.shadow-md{
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+.text-slate{
+  --tw-text-opacity: 1;
+  color: rgb(227 225 223 / var(--tw-text-opacity));
+}
+
+.shadow-xl{
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.transition{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-200{
+  transition-duration: 200ms;
 }
 
 body{
@@ -730,4 +837,26 @@ span{
   font-family: Nanum Gothic, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+a{
+  font-family: Nanum Gothic, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 768px){
+  .sm\:w-2\/3{
+    width: 66.666667%;
+  }
+}
+
+@media (min-width: 1060px){
+  .md\:w-2\/3{
+    width: 66.666667%;
+  }
+
+  .md\:gap-16{
+    gap: 4rem;
+  }
 }

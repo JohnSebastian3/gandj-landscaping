@@ -19,3 +19,7 @@ p {
 span {
   @apply text-sm font-nanumgothic;
 }
+
+a {
+  @apply text-base font-nanumgothic;
+}
