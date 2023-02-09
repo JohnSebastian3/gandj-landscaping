@@ -581,6 +581,10 @@ video {
   z-index: 40;
 }
 
+.z-\[-1\]{
+  z-index: -1;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -602,8 +606,16 @@ video {
   height: 100%;
 }
 
+.h-\[70vh\]{
+  height: 70vh;
+}
+
 .h-\[100vh\]{
   height: 100vh;
+}
+
+.h-\[75vh\]{
+  height: 75vh;
 }
 
 .w-5\/6{
@@ -681,12 +693,22 @@ video {
 
 .bg-light-gray{
   --tw-bg-opacity: 1;
-  background-color: rgb(189 188 177 / var(--tw-bg-opacity));
+  background-color: rgb(223 223 211 / var(--tw-bg-opacity));
 }
 
 .bg-wood{
   --tw-bg-opacity: 1;
   background-color: rgb(74 68 45 / var(--tw-bg-opacity));
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-green{
+  --tw-bg-opacity: 1;
+  background-color: rgb(121 156 105 / var(--tw-bg-opacity));
 }
 
 .bg-sand{
@@ -696,16 +718,27 @@ video {
 
 .bg-slate{
   --tw-bg-opacity: 1;
-  background-color: rgb(227 225 223 / var(--tw-bg-opacity));
+  background-color: rgb(244 242 239 / var(--tw-bg-opacity));
 }
 
-.bg-green{
-  --tw-bg-opacity: 1;
-  background-color: rgb(104 139 88 / var(--tw-bg-opacity));
+.bg-opacity-40{
+  --tw-bg-opacity: 0.4;
+}
+
+.bg-\[url\(\'\.\/assets\/hero2\.jpg\'\)\]{
+  background-image: url('./assets/hero2.jpg');
 }
 
 .bg-\[url\(\'\.\/assets\/hero3\.jpg\'\)\]{
   background-image: url('./assets/hero3.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/hero4\.jpg\'\)\]{
+  background-image: url('./assets/hero4.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/hero5\.jpg\'\)\]{
+  background-image: url('./assets/hero5.jpg');
 }
 
 .bg-cover{
@@ -792,7 +825,7 @@ video {
 
 .text-slate{
   --tw-text-opacity: 1;
-  color: rgb(227 225 223 / var(--tw-text-opacity));
+  color: rgb(244 242 239 / var(--tw-text-opacity));
 }
 
 .shadow-xl{
@@ -815,11 +848,11 @@ video {
 
 body{
   --tw-bg-opacity: 1;
-  background-color: rgb(227 225 223 / var(--tw-bg-opacity));
+  background-color: rgb(244 242 239 / var(--tw-bg-opacity));
   line-height: 2rem;
   letter-spacing: 0.025em;
   --tw-text-opacity: 1;
-  color: rgb(227 225 223 / var(--tw-text-opacity));
+  color: rgb(244 242 239 / var(--tw-text-opacity));
 }
 
 h3{

@@ -6,11 +6,11 @@ module.exports = {
     extend: {
       colors: {
         moss: "#8d9b77",
-        slate: "#e3e1df",
+        slate: "#f4f2ef",
         wood : "#4A442D",
         sand: "#DCD6C8",
-        green: "#688B58",
-        "light-gray": "#bdbcb1",
+        green: "#799C69",
+        "light-gray": "#dfdfd3",
         "dark-green": "#25241a"
       },
       fontFamily: {
