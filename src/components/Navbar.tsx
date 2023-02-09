@@ -14,7 +14,7 @@ const Navbar = () => {
       className={`bg-wood z-40 w-full fixed top-0 py-4 transition duration-200`}
     >
       <div className="flex items-center justify-between mx-auto w-5/6 sm:w-2/3">
-        <h4 className="text-3xl font-bold">JG</h4>
+        <h4 className="text-3xl font-bold">LOGO</h4>
 
         {/* DESKTOP NAV */}
         {isAboveSmallScreens ? (
