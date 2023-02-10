@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <section
-      className={`bg-[url('./assets/hero5.jpg')] h-[75vh] bg-cover bg-center flex justify-center items-center`}
+      className={`bg-[url('./assets/hero5.jpg')] h-[75vh] bg-cover bg-center flex justify-center items-center bg-fixed`}
     >
       <div
         className="bg-black bg-opacity-40 w-full h-full flex justify-center
