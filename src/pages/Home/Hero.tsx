@@ -1,6 +1,7 @@
 import React from "react";
 
 const Hero = () => {
+
   return (
     <section
       className={`bg-[url('./assets/hero3.jpg')] h-[100vh] bg-cover bg-center flex justify-center items-center`}
