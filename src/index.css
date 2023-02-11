@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 body {
-  @apply leading-8 tracking-wider text-slate bg-slate transition-all duration-200;
+  @apply leading-8 tracking-wider text-slate bg-slate;
 }
 
 h3 {

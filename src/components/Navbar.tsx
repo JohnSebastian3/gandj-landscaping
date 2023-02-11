@@ -18,12 +18,13 @@ const Navbar = () => {
 
         {/* DESKTOP NAV */}
         {isAboveSmallScreens ? (
-          <div className="flex justify-between gap-6 md:gap-16 text-lg font-semibold">
+          <div className="flex justify-between items-center gap-6 md:gap-16 text-lg font-semibold">
             <Link
               to={"/"}
               onClick={() => {
                 setIsMenuToggled(false);
               }}
+              className="hover:text-moss transition duration-200"
             >
               Home
             </Link>
@@ -32,6 +33,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsMenuToggled(false);
               }}
+              className="hover:text-moss transition duration-200"
             >
               About
             </Link>
@@ -40,6 +42,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsMenuToggled(false);
               }}
+              className="hover:text-moss transition duration-200"
             >
               Portfolio
             </Link>
@@ -48,6 +51,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsMenuToggled(false);
               }}
+              className="sm:border sm:border-slate sm:py-1 sm:px-2 sm:rounded-md sm:bg-slate sm:text-dark-green sm:hover:bg-moss sm:hover:border-moss transition duration-200"
             >
               Contact
             </Link>
