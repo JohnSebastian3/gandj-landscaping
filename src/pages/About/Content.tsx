@@ -1,13 +1,12 @@
-import React from "react";
-import Attributes from "./Attributes";
 import Intro from "./Intro";
 import Team from "./Team";
+import Qualities from "./Qualities";
 
 const Content = () => {
   return (
     <>
       <Intro />
-      <Attributes />
+      <Qualities />
       <Team />
     </>
   );
