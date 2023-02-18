@@ -7,11 +7,11 @@ module.exports = {
       colors: {
         moss: "#8d9b77",
         slate: "#f4f2ef",
-        wood : "#4A442D",
-        sand: "#DCD6C8",
+        wood: "#4A442D",
+        sand: "#EDE7D9",
         green: "#799C69",
         "light-gray": "#dfdfd3",
-        "dark-green": "#25241a"
+        "dark-green": "#25241a",
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],

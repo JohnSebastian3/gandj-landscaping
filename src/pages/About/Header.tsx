@@ -1,5 +1,3 @@
-import React from "react";
-
 const Hero = () => {
   return (
     <section
@@ -12,7 +10,7 @@ const Hero = () => {
         <header className="w-5/6 md:w-2/3 flex flex-col gap-4">
           <h1 className="text-slate text-4xl font-bold">About Us</h1>
           <h2 className="text-slate text-2xl">
-            Some random lorem ipsum here for filler
+            We are a team of experienced and passionate professionals
           </h2>
         </header>
       </div>
