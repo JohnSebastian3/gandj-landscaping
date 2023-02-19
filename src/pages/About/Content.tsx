@@ -7,7 +7,7 @@ const Content = () => {
     <>
       <Intro />
       <Qualities />
-      <Team />
+      {/* <Team /> */}
     </>
   );
 };
