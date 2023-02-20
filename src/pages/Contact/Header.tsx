@@ -10,8 +10,12 @@ const Header = () => {
     items-center"
       >
         <header className="w-5/6 md:w-2/3 flex flex-col gap-4">
-          <h1 className="text-slate text-4xl font-bold">Contact Us</h1>
-          <h2 className="text-slate text-2xl">Browse some of our past work</h2>
+          <h1 className="text-slate text-4xl font-bold md:text-6xl">
+            Contact Us
+          </h1>
+          <h2 className="text-slate text-2xl md:text-3xl">
+            Browse some of our past work
+          </h2>
         </header>
       </div>
     </section>
