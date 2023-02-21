@@ -1,8 +1,8 @@
 const Intro = () => {
   return (
     <section className="text-dark-green py-24 w-5/6 md:w-2/3 mx-auto">
-      <div className="flex flex-col gap-4">
-        <h2>Our story</h2>
+      <div className="flex flex-col gap-4 text-center">
+        <h2 className="text-2xl md:text-4xl">Our story</h2>
         <p>
           At G & J Landscaping, we believe that your outdoor space should be a
           beautiful and functional extension of your home or business. Our team

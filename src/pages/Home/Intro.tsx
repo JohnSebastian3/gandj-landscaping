@@ -5,7 +5,7 @@ const Intro = () => {
       className="text-dark-green py-24 w-5/6 md:w-2/3 mx-auto"
     >
       <div className="flex flex-col gap-4">
-        <h3 className="text-center">
+        <h3 className="text-center text-2xl md:text-4xl">
           The best landscaping service in Long Island{" "}
         </h3>
         <p className="text-center">
