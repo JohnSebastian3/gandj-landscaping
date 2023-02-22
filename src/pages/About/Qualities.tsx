@@ -5,9 +5,11 @@ import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 
 const Qualities = () => {
   return (
-    <section className="text-slate bg-green  py-24 ">
-      <h3 className="mb-12 text-center">How we stand out</h3>
-      <div className="w-5/6 md:w-2/3 mx-auto flex flex-col sm:grid sm:grid-rows-2 sm:grid-cols-2 py-24  text-center">
+    <section className="text-slate bg-green">
+      <h3 className="text-center text-2xl md:text-4xl pt-24">
+        How we stand out
+      </h3>
+      <div className="w-5/6 md:w-2/3 mx-auto flex flex-col sm:grid sm:grid-rows-2 sm:grid-cols-2 pt-12 pb-24  text-center">
         <div className="flex flex-col gap-2 py-8 border-b sm:border-r sm:px-4 border-slate border-opacity-10">
           <div className="flex flex-col gap-4 items-center">
             <SlBadge className="text-4xl" />

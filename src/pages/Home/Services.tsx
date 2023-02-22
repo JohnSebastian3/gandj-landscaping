@@ -10,8 +10,8 @@ import { BiWrench } from "react-icons/bi";
 const Services = () => {
   return (
     <section className="text-dark-green bg-sand">
-      <h3 className="pt-24 text-center">Our Services</h3>
-      <div className="w-5/6 md:w-2/3 mx-auto flex flex-col sm:grid sm:grid-rows-2 sm:grid-cols-3 py-24 text-center">
+      <h3 className="pt-24 text-center text-2xl md:text-4xl">Our Services</h3>
+      <div className="w-5/6 md:w-2/3 mx-auto flex flex-col sm:grid sm:grid-rows-2 sm:grid-cols-3 pb-24 pt-12 text-center">
         <div className="flex flex-col gap-2 border-b sm:border-r py-8 sm:px-4 border-dark-green border-opacity-10">
           <div className="flex flex-col items-center gap-4">
             <RiQuestionAnswerLine className="text-4xl" />
