@@ -1,5 +1,5 @@
 import Intro from "./Intro";
-import Team from "./Team";
+// import Team from "./Team";
 import Qualities from "./Qualities";
 
 const Content = () => {
