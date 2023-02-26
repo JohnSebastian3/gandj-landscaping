@@ -24,7 +24,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsMenuToggled(false);
               }}
-              className="hover:text-moss transition duration-200"
+              className="hover:text-green border-b-2 border-b-wood transition duration-200 hover:border-b-2 hover:border-b-green"
             >
               Home
             </Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsMenuToggled(false);
               }}
-              className="hover:text-moss transition duration-200"
+              className="hover:text-green border-b-2 border-b-wood transition duration-200 hover:border-b-2 hover:border-b-green"
             >
               About
             </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsMenuToggled(false);
               }}
-              className="hover:text-moss transition duration-200"
+              className="hover:text-green border-b-2 border-b-wood transition duration-200 hover:border-b-2 hover:border-b-green"
             >
               Portfolio
             </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
               onClick={() => {
                 setIsMenuToggled(false);
               }}
-              className="sm:border sm:border-slate sm:py-1 sm:px-2 sm:rounded-md sm:bg-slate sm:text-dark-green sm:hover:bg-moss sm:hover:border-moss transition duration-200"
+              className="sm:border sm:border-slate sm:py-1 sm:px-2 sm:rounded-md sm:bg-slate sm:text-dark-green sm:hover:bg-green sm:hover:border-green transition duration-200"
             >
               Contact
             </Link>
