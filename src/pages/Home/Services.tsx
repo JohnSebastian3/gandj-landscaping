@@ -20,11 +20,11 @@ const Services = () => {
           hidden: { opacity: 0, y: -40 },
           visible: { opacity: 1, y: 0 },
         }}
-        className="pt-24 text-center text-2xl md:text-4xl"
+        className="pt-24 md:pt-36 text-center text-2xl md:text-4xl"
       >
         Our Services
       </motion.h3>
-      <div className="w-5/6 md:w-2/3 mx-auto flex flex-col sm:grid sm:grid-rows-2 sm:grid-cols-3 pb-24 pt-12 text-center">
+      <div className="w-5/6 md:w-2/3 mx-auto flex flex-col sm:grid sm:grid-rows-2 sm:grid-cols-3 pb-24 pt-12 md:pb-36 md:pt-24 text-center">
         <motion.div
           initial="hidden"
           whileInView="visible"
