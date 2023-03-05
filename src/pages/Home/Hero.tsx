@@ -47,11 +47,21 @@ const Hero = () => {
             Redifining outdoor experiences since 1994
           </motion.h2>
         </header>
-        <div className="absolute bottom-20">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 1, delay: 2 }}
+          variants={{
+            hidden: { opacity: 0, y: -60 },
+            visible: { opacity: 1, y: 0 },
+          }}
+          className="absolute bottom-20"
+        >
           <AnchorLink href="#intro">
             <FiChevronDown className="text-4xl" />
           </AnchorLink>
-        </div>
+        </motion.div>
       </div>
     </motion.section>
   );
