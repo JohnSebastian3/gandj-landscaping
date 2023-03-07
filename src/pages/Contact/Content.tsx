@@ -1,27 +1,67 @@
+import { motion } from "framer-motion";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 
 const Content = () => {
   return (
     <div className="text-dark-green py-24 w-5/6 md:w-2/3 mx-auto text-center flex flex-col gap-8">
-      <p className="text-2xl mx:text-4xl">
+      <motion.p
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.8 }}
+        transition={{ duration: 1 }}
+        variants={{
+          hidden: { opacity: 0, y: -40 },
+          visible: { opacity: 1, y: 0 },
+        }}
+        className="text-2xl mx:text-4xl"
+      >
         Ready to upgrade your outdoor space?
-      </p>
+      </motion.p>
 
-      <p>
+      <motion.p
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.8 }}
+        transition={{ duration: 1 }}
+        variants={{
+          hidden: { opacity: 0, y: -20 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      >
         We are located in Oceanside, New York and service houses and clients in
         Long Island around the 5 towns areas.
-      </p>
+      </motion.p>
 
       <div className="flex flex-col justify-center items-center gap-4">
-        <div className="flex items-center gap-2">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.8 }}
+          transition={{ duration: 1, delay: 0.4 }}
+          variants={{
+            hidden: { opacity: 0, x: -20 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          className="flex items-center gap-2"
+        >
           <BsFillTelephoneFill />
           <span>(516) 949-1482</span>
-        </div>
-        <div className="flex items-center gap-2">
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.8 }}
+          transition={{ duration: 1, delay: 0.6 }}
+          variants={{
+            hidden: { opacity: 0, x: 20 },
+            visible: { opacity: 1, x: 0 },
+          }}
+          className="flex items-center gap-2"
+        >
           <FiMail />
           <span>jg4341751@gmail.com</span>
-        </div>
+        </motion.div>
       </div>
       <div className="w-full">
         <iframe
