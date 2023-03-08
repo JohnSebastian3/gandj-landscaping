@@ -15,7 +15,9 @@ const Footer = () => {
             <FiMail />
             <span>jg4341751@gmail.com</span>
           </div>
-          <small>Copyright &copy; 2023 G & J Landscaping</small>
+          <small className="text-center">
+            Copyright &copy; 2023 G & J Landscaping
+          </small>
         </div>
       </div>
     </footer>
