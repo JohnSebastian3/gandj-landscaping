@@ -4,7 +4,7 @@ import { FiMail } from "react-icons/fi";
 
 const Content = () => {
   return (
-    <div className="text-dark-green py-24 w-5/6 md:w-2/3 mx-auto text-center flex flex-col gap-8">
+    <div className="text-dark-green py-24 md:py-48 w-5/6 md:w-2/3 mx-auto text-center flex flex-col gap-8">
       <motion.p
         initial="hidden"
         whileInView="visible"

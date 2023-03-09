@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Content = () => {
   return (
-    <section className="w-5/6 md:w-2/3 py-24 mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+    <section className="w-5/6 md:w-2/3 py-24 md:py-48 mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
       <motion.div
         initial="hidden"
         whileInView="visible"
