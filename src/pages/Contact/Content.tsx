@@ -33,7 +33,17 @@ const Content = () => {
         We are located in Oceanside, New York and service houses and clients in
         Long Island in the 5 Towns Area:
       </motion.p>
-      <ul className="flex justify-center gap-4 flex-wrap">
+      <motion.ul
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.8 }}
+        transition={{ duration: 1 }}
+        variants={{
+          hidden: { opacity: 0, y: -20 },
+          visible: { opacity: 1, y: 0 },
+        }}
+        className="flex justify-center gap-4 flex-wrap"
+      >
         <li className="flex gap-1 items-center">
           <MdLocationPin />
           Woodmere
@@ -54,7 +64,7 @@ const Content = () => {
           <MdLocationPin />
           Valley Stream
         </li>
-      </ul>
+      </motion.ul>
 
       <div className="flex flex-col justify-center items-center gap-4">
         <motion.div
