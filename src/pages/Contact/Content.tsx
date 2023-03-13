@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
+import { MdLocationPin } from "react-icons/md";
 
 const Content = () => {
   return (
@@ -30,8 +31,30 @@ const Content = () => {
         }}
       >
         We are located in Oceanside, New York and service houses and clients in
-        Long Island around the 5 towns areas.
+        Long Island in the 5 Towns Area:
       </motion.p>
+      <ul className="flex justify-center gap-4 flex-wrap">
+        <li className="flex gap-1 items-center">
+          <MdLocationPin />
+          Woodmere
+        </li>
+        <li className="flex gap-1 items-center">
+          <MdLocationPin />
+          Cedarhurst
+        </li>
+        <li className="flex gap-1 items-center">
+          <MdLocationPin />
+          Hewlett
+        </li>
+        <li className="flex gap-1 items-center">
+          <MdLocationPin />
+          Oceanside
+        </li>
+        <li className="flex gap-1 items-center">
+          <MdLocationPin />
+          Valley Stream
+        </li>
+      </ul>
 
       <div className="flex flex-col justify-center items-center gap-4">
         <motion.div
